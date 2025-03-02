@@ -1,7 +1,9 @@
+
 public class App {
-    public static void main(String[] args) throws Exception {
-    SliceoHeaven sliceoheaven = new SliceoHeaven();
-    sliceoheaven.takeOrder("1234", "2 pizza", 20.00);
- 
-     }
-    } 
+    public static void main(String[] args) {
+       
+        SliceoHeaven.processCardPayment("12345678912345", "3/3", 001);
+
+         SliceoHeaven.specialOfTheDay("Pizza 1", "side1", "RMB6.66");
+    }
+}
