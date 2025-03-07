@@ -53,6 +53,7 @@ public class SliceoHeavenOrder {
 
         System.out.println("Do you want extra cheese (Y/N):");
         String extraCheese = scanner.nextLine();
+        System.out.println("your choice is"+extraCheese);
 
         System.out.println("Enter one side dish (Calzone, Garlic bread, None):");
         sides = scanner.nextLine();
@@ -69,6 +70,7 @@ public class SliceoHeavenOrder {
         } else {
             makeCardPayment(scanner);
         }
+        scanner.close();
     }
 
     private void isItYourBirthday() {
